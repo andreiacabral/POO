@@ -16,6 +16,7 @@ namespace IMC
             {
                 double altura = Convert.ToDouble(Altura_textBox.Text);
                 double peso = Convert.ToDouble(Peso_textBox.Text);
+                altura = altura / 100;
 
                 double resultado = (peso / (altura * altura));
 

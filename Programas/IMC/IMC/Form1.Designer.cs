@@ -55,9 +55,9 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(12, 49);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(88, 37);
+            this.label1.Size = new System.Drawing.Size(146, 37);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Altura";
+            this.label1.Text = "Altura (cm)";
             // 
             // label2
             // 
@@ -65,13 +65,13 @@
             this.label2.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.Location = new System.Drawing.Point(12, 86);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 37);
+            this.label2.Size = new System.Drawing.Size(124, 37);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Peso";
+            this.label2.Text = "Peso (kg)";
             // 
             // Altura_textBox
             // 
-            this.Altura_textBox.Location = new System.Drawing.Point(106, 63);
+            this.Altura_textBox.Location = new System.Drawing.Point(158, 64);
             this.Altura_textBox.Name = "Altura_textBox";
             this.Altura_textBox.Size = new System.Drawing.Size(100, 23);
             this.Altura_textBox.TabIndex = 3;
@@ -79,7 +79,7 @@
             // 
             // Peso_textBox
             // 
-            this.Peso_textBox.Location = new System.Drawing.Point(106, 100);
+            this.Peso_textBox.Location = new System.Drawing.Point(158, 100);
             this.Peso_textBox.Name = "Peso_textBox";
             this.Peso_textBox.Size = new System.Drawing.Size(100, 23);
             this.Peso_textBox.TabIndex = 4;
@@ -87,7 +87,7 @@
             // 
             // Calcular_btn
             // 
-            this.Calcular_btn.Location = new System.Drawing.Point(106, 144);
+            this.Calcular_btn.Location = new System.Drawing.Point(158, 144);
             this.Calcular_btn.Name = "Calcular_btn";
             this.Calcular_btn.Size = new System.Drawing.Size(100, 23);
             this.Calcular_btn.TabIndex = 5;
